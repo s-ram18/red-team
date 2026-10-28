@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <rect width="600" height="400" fill="#0b0f19"/>
+  <rect x="150" y="200" width="300" height="90" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="3"/>
+  <!-- Antennas -->
+  <line x1="180" y1="200" x2="160" y2="80" stroke="#06b6d4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="300" y1="200" x2="300" y2="70" stroke="#06b6d4" stroke-width="6" stroke-linecap="round"/>
+  <line x1="420" y1="200" x2="440" y2="80" stroke="#06b6d4" stroke-width="6" stroke-linecap="round"/>
+  <!-- Wi-Fi Signals -->
+  <circle cx="300" cy="50" r="15" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="10 5"/>
+  <circle cx="300" cy="50" r="30" fill="none" stroke="#06b6d4" stroke-width="3" stroke-dasharray="12 6"/>
+  <!-- LEDs -->
+  <circle cx="200" cy="245" r="6" fill="#10b981"/>
+  <circle cx="230" cy="245" r="6" fill="#10b981"/>
+  <circle cx="260" cy="245" r="6" fill="#38bdf8"/>
+  <circle cx="290" cy="245" r="6" fill="#6366f1"/>
+  <text x="300" y="340" font-family="sans-serif" font-size="16" font-weight="bold" fill="#06b6d4" text-anchor="middle">5G REDTEAM FIELD ROUTER</text>
+</svg>

@@ -1,0 +1,400 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "user@secureshop.com",
+      "password_hash": "5f4dcc3b5aa765d61d8327deb882cf99",
+      "password_plain": "password",
+      "role": "user",
+      "address": "123 Main Street, Tech City, TC 10001",
+      "phone": "+1 555-0192",
+      "created_at": "2026-09-15T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Bob Admin",
+      "email": "admin@secureshop.com",
+      "password_hash": "21232f297a57a5a743894a0e4a801fc3",
+      "password_plain": "admin123",
+      "role": "admin",
+      "address": "456 Executive Way, Cyber City, CC 90002",
+      "phone": "+1 555-0199",
+      "created_at": "2026-09-01T08:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Charlie Executive",
+      "email": "charlie@secureshop.com",
+      "password_hash": "5f4dcc3b5aa765d61d8327deb882cf99",
+      "password_plain": "password",
+      "role": "user",
+      "address": "789 Corporate Blvd, Metro City, MC 30003",
+      "phone": "+1 555-0143",
+      "created_at": "2026-09-20T14:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "New User",
+      "email": "newuser@secureshop.com",
+      "password_hash": "7465737470617373313233",
+      "password_plain": "testpass123",
+      "role": "user",
+      "address": "123 Test St",
+      "phone": "+1 555-7777",
+      "created_at": "2026-10-08T05:37:49.777Z"
+    },
+    {
+      "id": 5,
+      "name": "tanmai",
+      "email": "tanmai@gmail.com",
+      "password_hash": "31323334353637383930",
+      "password_plain": "1234567890",
+      "role": "user",
+      "address": "hyderabad",
+      "phone": "9876543210",
+      "created_at": "2026-10-08T06:30:50.208Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "CyberShield Gaming Laptop",
+      "category": "Laptops",
+      "price": 1299.99,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+      "description": "High-performance laptop with 32GB RAM, RTX 4080 GPU, and 1TB NVMe SSD for seamless gaming and dev security work.",
+      "rating": 4.8
+    },
+    {
+      "id": 102,
+      "name": "Encrypted Wireless Keypad",
+      "category": "Accessories",
+      "price": 89.99,
+      "stock": 42,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+      "description": "Ergonomic mechanical keyboard with AES-128 key encryption and customizable RGB backlight.",
+      "rating": 4.6
+    },
+    {
+      "id": 103,
+      "name": "Stealth Noise-Canceling Headset",
+      "category": "Audio",
+      "price": 149.5,
+      "stock": 28,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "description": "Active noise cancellation headset with spatial audio and crystal-clear microphone.",
+      "rating": 4.7
+    },
+    {
+      "id": 104,
+      "name": "SecurePad Pro 11 Tablet",
+      "category": "Tablets",
+      "price": 649,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80",
+      "description": "Ultra-thin 11-inch AMOLED tablet featuring hardware biometrics and privacy guard screen.",
+      "rating": 4.5
+    },
+    {
+      "id": 105,
+      "name": "RedTeam Field Router 5G",
+      "category": "Networking",
+      "price": 279.99,
+      "stock": 7,
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+      "description": "Portable dual-sim 5G router with built-in VPN server, TOR routing, and Wi-Fi 6 setup.",
+      "rating": 4.9
+    },
+    {
+      "id": 106,
+      "name": "Hardware Security Token Key",
+      "category": "Accessories",
+      "price": 45,
+      "stock": 100,
+      "image": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=600&q=80",
+      "description": "FIDO2 / U2F hardware security key for two-factor authentication and cryptographic signing.",
+      "rating": 4.9
+    }
+  ],
+  "orders": [
+    {
+      "id": 5005,
+      "user_id": 1,
+      "user_email": "user@secureshop.com",
+      "user_name": "Alice Smith",
+      "items": [
+        {
+          "product_id": 101,
+          "name": "CyberShield Gaming Laptop",
+          "price": 1299.99,
+          "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 1299.99,
+      "status": "Processing",
+      "shipping_address": "123 Main Street, Tech City, TC 10001",
+      "payment_method": "Credit Card (Simulated **** 4242)",
+      "created_at": "2026-10-08T05:05:13.032Z"
+    },
+    {
+      "id": 5004,
+      "user_id": 2,
+      "user_email": "admin@secureshop.com",
+      "user_name": "Bob Admin",
+      "items": [
+        {
+          "product_id": 103,
+          "name": "Stealth Noise-Canceling Headset",
+          "price": 149.5,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 149.5,
+      "status": "Processing",
+      "shipping_address": "456 Executive Way, Cyber City, CC 90002",
+      "payment_method": "Credit Card (Simulated **** 4242)",
+      "created_at": "2026-10-01T09:36:23.685Z"
+    },
+    {
+      "id": 5003,
+      "user_id": 1,
+      "user_email": "user@secureshop.com",
+      "user_name": "Alice Smith",
+      "items": [
+        {
+          "product_id": 101,
+          "name": "CyberShield Gaming Laptop",
+          "price": 1299.99,
+          "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+          "quantity": 1
+        }
+      ],
+      "total": 1299.99,
+      "status": "Processing",
+      "shipping_address": "123 Main Street, Tech City, TC 10001",
+      "payment_method": "Credit Card (Simulated **** 4242)",
+      "created_at": "2026-10-01T09:25:07.857Z"
+    },
+    {
+      "id": 5001,
+      "user_id": 1,
+      "user_email": "user@secureshop.com",
+      "user_name": "Alice Smith",
+      "items": [
+        {
+          "product_id": 102,
+          "name": "Encrypted Wireless Keypad",
+          "price": 89.99,
+          "quantity": 1
+        }
+      ],
+      "total": 89.99,
+      "status": "Delivered",
+      "shipping_address": "123 Main Street, Tech City, TC 10001",
+      "payment_method": "Credit Card (ending 4242)",
+      "created_at": "2026-09-25T11:20:00.000Z"
+    },
+    {
+      "id": 5002,
+      "user_id": 3,
+      "user_email": "charlie@secureshop.com",
+      "user_name": "Charlie Executive",
+      "items": [
+        {
+          "product_id": 101,
+          "name": "CyberShield Gaming Laptop",
+          "price": 1299.99,
+          "quantity": 1
+        },
+        {
+          "product_id": 106,
+          "name": "Hardware Security Token Key",
+          "price": 45,
+          "quantity": 2
+        }
+      ],
+      "total": 1389.99,
+      "status": "Processing",
+      "shipping_address": "789 Corporate Blvd, Metro City, MC 30003",
+      "payment_method": "Corporate Account #90812",
+      "created_at": "2026-09-29T16:45:00.000Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": 1791441056772,
+      "timestamp": "2026-10-08T06:30:56.772Z",
+      "ip": "127.0.0.1",
+      "event": "IDOR_READ_ATTEMPT",
+      "user": "ANONYMOUS",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Accessed profile ID 5"
+    },
+    {
+      "id": 1791441050217,
+      "timestamp": "2026-10-08T06:30:50.217Z",
+      "ip": "127.0.0.1",
+      "event": "USER_REGISTERED",
+      "user": "tanmai@gmail.com",
+      "status": "SUCCESS",
+      "details": "New user registered: tanmai"
+    },
+    {
+      "id": 1791437869779,
+      "timestamp": "2026-10-08T05:37:49.779Z",
+      "ip": "127.0.0.1",
+      "event": "USER_REGISTERED",
+      "user": "newuser@secureshop.com",
+      "status": "SUCCESS",
+      "details": "New user registered: New User"
+    },
+    {
+      "id": 1791437642608,
+      "timestamp": "2026-10-08T05:34:02.608Z",
+      "ip": "127.0.0.1",
+      "event": "ADMIN_BYPASS_EXPLOITED",
+      "user": "ANONYMOUS_CLIENT",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Admin user list accessed via forged header x-user-role: admin"
+    },
+    {
+      "id": 1791437633527,
+      "timestamp": "2026-10-08T05:33:53.527Z",
+      "ip": "127.0.0.1",
+      "event": "IDOR_READ_ATTEMPT",
+      "user": "admin@secureshop.com",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Accessed profile ID 2"
+    },
+    {
+      "id": 1791436248057,
+      "timestamp": "2026-10-08T05:10:48.057Z",
+      "ip": "127.0.0.1",
+      "event": "ADMIN_BYPASS_EXPLOITED",
+      "user": "ANONYMOUS_CLIENT",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Admin user list accessed via forged header x-user-role: admin"
+    },
+    {
+      "id": 1791436244749,
+      "timestamp": "2026-10-08T05:10:44.749Z",
+      "ip": "127.0.0.1",
+      "event": "LOGIN_SUCCESS",
+      "user": "admin@secureshop.com",
+      "status": "SUCCESS",
+      "details": "User Bob Admin logged in successfully"
+    },
+    {
+      "id": 1791436221551,
+      "timestamp": "2026-10-08T05:10:21.551Z",
+      "ip": "127.0.0.1",
+      "event": "IDOR_READ_ATTEMPT",
+      "user": "user@secureshop.com",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Accessed profile ID 1"
+    },
+    {
+      "id": 1791435918043,
+      "timestamp": "2026-10-08T05:05:18.043Z",
+      "ip": "127.0.0.1",
+      "event": "IDOR_READ_ATTEMPT",
+      "user": "user@secureshop.com",
+      "status": "VULNERABLE_EXPLOITED",
+      "details": "Accessed profile ID 1"
+    },
+    {
+      "id": 1791435913038,
+      "timestamp": "2026-10-08T05:05:13.038Z",
+      "ip": "127.0.0.1",
+      "event": "ORDER_CREATED",
+      "user": "user@secureshop.com",
+      "status": "SUCCESS",
+      "details": "Created Order #5005 for $1299.99"
+    },
+    {
+      "id": 1791435778820,
+      "timestamp": "2026-10-08T05:02:58.820Z",
+      "ip": "127.0.0.1",
+      "event": "LOGIN_SUCCESS",
+      "user": "user@secureshop.com",
+      "status": "SUCCESS",
+      "details": "User Alice Smith logged in successfully"
+    },
+    {
+      "id": 1790847383687,
+      "timestamp": "2026-10-01T09:36:23.687Z",
+      "ip": "127.0.0.1",
+      "event": "ORDER_CREATED",
+      "user": "admin@secureshop.com",
+      "status": "SUCCESS",
+      "details": "Created Order #5004 for $149.5"
+    },
+    {
+      "id": 1790847308099,
+      "timestamp": "2026-10-01T09:35:08.099Z",
+      "ip": "127.0.0.1",
+      "event": "LOGIN_SUCCESS",
+      "user": "admin@secureshop.com",
+      "status": "SUCCESS",
+      "details": "User Bob Admin logged in successfully"
+    },
+    {
+      "id": 1790846707861,
+      "timestamp": "2026-10-01T09:25:07.861Z",
+      "ip": "127.0.0.1",
+      "event": "ORDER_CREATED",
+      "user": "user@secureshop.com",
+      "status": "SUCCESS",
+      "details": "Created Order #5003 for $1299.99"
+    },
+    {
+      "id": 1790846677510,
+      "timestamp": "2026-10-01T09:24:37.510Z",
+      "ip": "127.0.0.1",
+      "event": "ACCESS_CONTROL_BLOCKED",
+      "user": "user@secureshop.com",
+      "status": "BLOCKED",
+      "details": "Attempted unauthorized access to user ID 3"
+    },
+    {
+      "id": 1790846675974,
+      "timestamp": "2026-10-01T09:24:35.974Z",
+      "ip": "127.0.0.1",
+      "event": "ACCESS_CONTROL_BLOCKED",
+      "user": "user@secureshop.com",
+      "status": "BLOCKED",
+      "details": "Attempted unauthorized access to user ID 2"
+    },
+    {
+      "id": 1790846657233,
+      "timestamp": "2026-10-01T09:24:17.233Z",
+      "ip": "127.0.0.1",
+      "event": "LOGIN_SUCCESS",
+      "user": "user@secureshop.com",
+      "status": "SUCCESS",
+      "details": "User Alice Smith logged in successfully"
+    },
+    {
+      "id": 1790846567238,
+      "timestamp": "2026-10-01T09:22:47.238Z",
+      "ip": "127.0.0.1",
+      "event": "LAB_MODE_CHANGED",
+      "user": "SYSTEM",
+      "status": "SUCCESS",
+      "details": "Switched security posture to: SECURE"
+    },
+    {
+      "id": 10001,
+      "timestamp": "2026-09-30T09:00:00.000Z",
+      "ip": "127.0.0.1",
+      "event": "SYSTEM_STARTUP",
+      "user": "SYSTEM",
+      "status": "SUCCESS",
+      "details": "SecureShop Application Server initialized"
+    }
+  ]
+}

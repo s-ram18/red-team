@@ -1,0 +1,17 @@
+{
+  "name": "secureshop-redteam-lab",
+  "version": "1.0.0",
+  "description": "SecureShop - E-Commerce Security Lab & Red Team Assignment Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {}
+}
